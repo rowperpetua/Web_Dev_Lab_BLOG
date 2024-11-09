@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width", intial-scale="1.0"/>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
         <title>Row's Blog!</title>
         <link rel="stylesheet" href="style.css"/>
     </head>
@@ -10,16 +10,140 @@
        <header>
             <div class="nav container">
                 <a href="#" class="logo">ROW's<span> BLOG</span></a>
+                <nav id="desktop-nav">
+                    <div>
+                      <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                      </ul>
+                    </div>
+                  </nav>
             </div>
        </header>
 
        <section class="home" id="home">
         <div class="home-text container">
             <h2 class="home-title">Life in a ROW</h2>
-            <span class="home-subtitle">Hi! This Rowela Perpetua, a 3rd year BS Information System student.</span>
+            <span class="home-subtitle">Welcome! This is Rowela Perpetua, a 3rd year BS Information System student.</span>
         </div>
        </section>
 
+       <section class="container my-5" id="categories">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/pinfo.png" class="card-img-top" alt="image1">
+                    <div class="card-body d-flex justify-content-between">
+                        <h5 class="card-title">Personal Information</h5>
+                        <p class="card-text">> About Me</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span><i class="far fa-heart"></i> 57</span>
+                        <span><i class="far fa-comment"></i> 6</span>
+                        <span><i class="far fa-eye"></i> 138</span>
+                    </div>
+                </div>
+                <div class="personal_info-container">
+            </div>
 
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/hobby.png" class="card-img-top" alt="image2">
+                    <div class="card-body">
+                        <h5 class="card-title">Hobbies</h5>
+                        <p class="card-text">> Activities</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span><i class="far fa-heart"></i> 57</span>
+                        <span><i class="far fa-comment"></i> 6</span>
+                        <span><i class="far fa-eye"></i> 138</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/talent-skill.png" class="card-img-top" alt="image3">
+                    <div class="card-body">
+                        <h5 class="card-title">Talent/Skills</h5>
+                        <p class="card-text">> Activities</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span><i class="far fa-heart"></i> 57</span>
+                        <span><i class="far fa-comment"></i> 6</span>
+                        <span><i class="far fa-eye"></i> 138</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Sample Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/projects.png" class="card-img-top" alt="image4">
+                    <div class="card-body d-flex justify-content-between">
+                        <h5 class="card-title">Projects</h5>
+                        <p class="card-text">> Past Projects</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span><i class="far fa-heart"></i> 57</span>
+                        <span><i class="far fa-comment"></i> 6</span>
+                        <span><i class="far fa-eye"></i> 138</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/loved-ones.png" class="card-img-top" alt="image5">
+                    <div class="card-body">
+                        <h5 class="card-title">Loved Ones</h5>
+                        <p class="card-text">> Favorite People</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span><i class="far fa-heart"></i> 57</span>
+                        <span><i class="far fa-comment"></i> 6</span>
+                        <span><i class="far fa-eye"></i> 138</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./assets/pets.png" class="card-img-top" alt="image6">
+                    <div class="card-body">
+                        <h5 class="card-title">Pets</h5>
+                        <p class="card-text">> Activities</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span><i class="far fa-heart"></i> 57</span>
+                        <span><i class="far fa-comment"></i> 6</span>
+                        <span><i class="far fa-eye"></i> 138</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-body">
+                        <img src="./assets/resume.jpg">
+                        <span class="close">&times;</span>
+                        <h2 id="modal-title">Personal Information</h2>
+                        <p id="modal-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        </section>
+
+        
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script src="script.js"></script>
     </body>
 </html>
