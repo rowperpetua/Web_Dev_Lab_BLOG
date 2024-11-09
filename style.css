@@ -215,7 +215,6 @@ nav-links li a:hover{
     font-size: 1.1rem;
 }
 
-
 .modal{
     display: none;
     position: fixed;
@@ -253,9 +252,4 @@ nav-links li a:hover{
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
-
-.personal_information-container{
-    display:flex;
-    transition: .3s;
 }
